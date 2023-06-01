@@ -1,0 +1,84 @@
+#saasbox_page_content .wp-block-code {
+  font-size: 14px;
+  padding: .8em 1em;
+  border: 1px solid #e2e4e7;
+  border-radius: 4px;
+}
+#saasbox_page_content .wp-block-code,
+#saasbox_page_content .wp-block-preformatted pre {
+  font-family: Menlo, Consolas, monaco, monospace;
+  color: #23282d;
+}
+#saasbox_page_content .wp-block-preformatted pre {
+  font-size: 16px;
+}
+@media (min-width: 600px) {
+  #saasbox_page_content .wp-block-preformatted pre {
+    font-size: 14px;
+  }
+}
+#saasbox_page_content .wp-block-pullquote {
+  border-top: 4px solid #555d66;
+  border-bottom: 4px solid #555d66;
+  color: #40464d;
+}
+#saasbox_page_content .wp-block-pullquote__citation,
+#saasbox_page_content .wp-block-pullquote cite,
+#saasbox_page_content .wp-block-pullquote footer {
+  color: #40464d;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-style: normal;
+}
+#saasbox_page_content .wp-block-quote {
+  border-left: 4px solid #000;
+  margin: 20px 0;
+  padding-left: 1em;
+}
+#saasbox_page_content .wp-block-quote__citation,
+#saasbox_page_content .wp-block-quote cite,
+#saasbox_page_content .wp-block-quote footer {
+  color: #6c7781;
+  font-size: 13px;
+  margin-top: 1em;
+  position: relative;
+  font-style: normal;
+}
+#saasbox_page_content .wp-block-quote[style*="text-align:right"],
+#saasbox_page_content .wp-block-quote[style*="text-align: right"] {
+  border-left: none;
+  border-right: 4px solid #000;
+  padding-left: 0;
+  padding-right: 1em;
+}
+#saasbox_page_content .wp-block-quote[style*="text-align:center"],
+#saasbox_page_content .wp-block-quote[style*="text-align: center"] {
+  border: none;
+  padding-left: 0;
+}
+#saasbox_page_content .wp-block-quote.is-large,
+#saasbox_page_content .wp-block-quote.is-style-large {
+  border: none;
+}
+#saasbox_page_content .wp-block-search .wp-block-search__label {
+  font-weight: 700;
+}
+#saasbox_page_content .wp-block-separator {
+  border: none;
+  border-bottom: 2px solid #8f98a1;
+  margin: 1.65em auto;
+}
+#saasbox_page_content .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+  max-width: 100px;
+}
+#saasbox_page_content .wp-block-table {
+  width: 100%;
+  min-width: 240px;
+  border-collapse: collapse;
+}
+#saasbox_page_content .wp-block-table td,
+#saasbox_page_content .wp-block-table th {
+  padding: .5em;
+  border: 1px solid;
+  word-break: break-all;
+}

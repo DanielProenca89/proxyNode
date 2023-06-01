@@ -1,0 +1,29 @@
+{
+  "name": "proxynode",
+  "version": "1.0.0",
+  "description": "Servidor proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie": "^0.5.0",
+    "cookie-parse": "^0.4.0",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "got": "^13.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "mitm": "^1.7.2",
+    "node-html-parser": "^6.1.5",
+    "puppeteer": "^20.4.0",
+    "tough-cookie": "^4.1.2",
+    "web-scraper": "^1.0.10",
+    "website-scraper": "^5.3.1",
+    "website-scraper-puppeteer": "^1.0.0"
+  }
+}

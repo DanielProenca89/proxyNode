@@ -1,0 +1,1124 @@
+#saasbox_page_content .wp-block-audio figcaption {
+  margin-top: .5em;
+  margin-bottom: 1em;
+  color: #555d66;
+  text-align: center;
+  font-size: 13px;
+}
+#saasbox_page_content .wp-block-audio audio {
+  width: 100%;
+  min-width: 300px;
+}
+#saasbox_page_content .block-editor-block-list__layout .reusable-block-edit-panel {
+  align-items: center;
+  background: #f8f9f9;
+  color: #555d66;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  font-size: 13px;
+  top: -14px;
+  margin: 0 -14px;
+  padding: 8px 14px;
+  position: relative;
+  border: 1px dashed rgba(145,151,162,0.25);
+  border-bottom: none;
+}
+#saasbox_page_content .block-editor-block-list__layout .block-editor-block-list__layout .reusable-block-edit-panel {
+  margin: 0 -14px;
+  padding: 8px 14px;
+}
+#saasbox_page_content .block-editor-block-list__layout .reusable-block-edit-panel .reusable-block-edit-panel__spinner {
+  margin: 0 5px;
+}
+#saasbox_page_content .block-editor-block-list__layout .reusable-block-edit-panel .reusable-block-edit-panel__info {
+  margin-right: auto;
+}
+#saasbox_page_content .block-editor-block-list__layout .reusable-block-edit-panel .reusable-block-edit-panel__label {
+  margin-right: 8px;
+  white-space: nowrap;
+  font-weight: 600;
+}
+#saasbox_page_content .block-editor-block-list__layout .reusable-block-edit-panel .reusable-block-edit-panel__title {
+  flex: 1 1 100%;
+  font-size: 14px;
+  height: 30px;
+  margin: 4px 0 8px;
+}
+#saasbox_page_content .block-editor-block-list__layout .reusable-block-edit-panel .components-button.reusable-block-edit-panel__button {
+  flex-shrink: 0;
+}
+@media (min-width: 960px) {
+  #saasbox_page_content .block-editor-block-list__layout .reusable-block-edit-panel {
+    flex-wrap: nowrap;
+  }
+  #saasbox_page_content .block-editor-block-list__layout .reusable-block-edit-panel .reusable-block-edit-panel__title {
+    margin: 0;
+  }
+  #saasbox_page_content .block-editor-block-list__layout .reusable-block-edit-panel .components-button.reusable-block-edit-panel__button {
+    margin: 0 0 0 5px;
+  }
+}
+#saasbox_page_content .editor-block-list__layout .is-selected .reusable-block-edit-panel {
+  border-color: rgba(66,88,99,0.4) rgba(66,88,99,0.4) rgba(66,88,99,0.4) transparent;
+}
+#saasbox_page_content .is-dark-theme .editor-block-list__layout .is-selected .reusable-block-edit-panel {
+  border-color: rgba(255,255,255,0.45) rgba(255,255,255,0.45) rgba(255,255,255,0.45) transparent;
+}
+#saasbox_page_content .block-editor-block-list__layout .reusable-block-indicator {
+  background: #fff;
+  border: 1px dashed #e2e4e7;
+  color: #555d66;
+  top: -14px;
+  height: 30px;
+  padding: 4px;
+  position: absolute;
+  z-index: 1;
+  width: 30px;
+  right: -14px;
+}
+#saasbox_page_content .wp-block-button {
+  color: #fff;
+  margin-bottom: 1.5em;
+}
+#saasbox_page_content .wp-block-button.aligncenter {
+  text-align: center;
+}
+#saasbox_page_content .wp-block-button.alignright {
+  text-align: right;
+}
+#saasbox_page_content .wp-block-button__link {
+  background-color: #32373c;
+  border: none;
+  border-radius: 28px;
+  box-shadow: none;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  overflow-wrap: break-word;
+}
+#saasbox_page_content .wp-block-button__link:active,
+#saasbox_page_content .wp-block-button__link:focus,
+#saasbox_page_content .wp-block-button__link:hover,
+#saasbox_page_content .wp-block-button__link:visited {
+  color: inherit;
+}
+#saasbox_page_content .is-style-squared .wp-block-button__link {
+  border-radius: 0;
+}
+#saasbox_page_content .is-style-outline {
+  color: #32373c;
+}
+#saasbox_page_content .is-style-outline .wp-block-button__link {
+  background-color: transparent;
+  border: 2px solid;
+}
+#saasbox_page_content .wp-block-calendar {
+  text-align: center;
+}
+#saasbox_page_content .wp-block-calendar tbody td,
+#saasbox_page_content .wp-block-calendar th {
+  padding: 4px;
+  border: 1px solid #e2e4e7;
+}
+#saasbox_page_content .wp-block-calendar tfoot td {
+  border: none;
+}
+#saasbox_page_content .wp-block-calendar table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+#saasbox_page_content .wp-block-calendar table th {
+  font-weight: 440;
+  background: #edeff0;
+}
+#saasbox_page_content .wp-block-calendar a {
+  text-decoration: underline;
+}
+#saasbox_page_content .wp-block-calendar tfoot a {
+  color: #00739c;
+}
+#saasbox_page_content .wp-block-calendar table caption,
+#saasbox_page_content .wp-block-calendar table tbody {
+  color: #40464d;
+}
+#saasbox_page_content .wp-block-categories.alignleft {
+  margin-right: 2em;
+}
+#saasbox_page_content .wp-block-categories.alignright {
+  margin-left: 2em;
+}
+#saasbox_page_content .wp-block-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 782px) {
+  #saasbox_page_content .wp-block-columns {
+    flex-wrap: nowrap;
+  }
+}
+#saasbox_page_content .wp-block-column {
+  flex-grow: 1;
+  margin-bottom: 1em;
+  flex-basis: 100%;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+@media (min-width: 600px) {
+  #saasbox_page_content .wp-block-column {
+    flex-basis: calc(50% - 16px);
+    flex-grow: 0;
+  }
+  #saasbox_page_content .wp-block-column:nth-child(2n) {
+    margin-left: 32px;
+  }
+}
+@media (min-width: 782px) {
+  #saasbox_page_content .wp-block-column:not(:first-child) {
+    margin-left: 32px;
+  }
+}
+#saasbox_page_content .wp-block-cover,
+#saasbox_page_content .wp-block-cover-image {
+  position: relative;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 430px;
+  width: 100%;
+  margin: 0 0 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#saasbox_page_content .wp-block-cover-image.has-left-content,
+#saasbox_page_content .wp-block-cover.has-left-content {
+  justify-content: flex-start;
+}
+#saasbox_page_content .wp-block-cover-image.has-left-content .wp-block-cover-image-text,
+#saasbox_page_content .wp-block-cover-image.has-left-content .wp-block-cover-text,
+#saasbox_page_content .wp-block-cover-image.has-left-content h2,
+#saasbox_page_content .wp-block-cover.has-left-content .wp-block-cover-image-text,
+#saasbox_page_content .wp-block-cover.has-left-content .wp-block-cover-text,
+#saasbox_page_content .wp-block-cover.has-left-content h2 {
+  margin-left: 0;
+  text-align: left;
+}
+#saasbox_page_content .wp-block-cover-image.has-right-content,
+#saasbox_page_content .wp-block-cover.has-right-content {
+  justify-content: flex-end;
+}
+#saasbox_page_content .wp-block-cover-image.has-right-content .wp-block-cover-image-text,
+#saasbox_page_content .wp-block-cover-image.has-right-content .wp-block-cover-text,
+#saasbox_page_content .wp-block-cover-image.has-right-content h2,
+#saasbox_page_content .wp-block-cover.has-right-content .wp-block-cover-image-text,
+#saasbox_page_content .wp-block-cover.has-right-content .wp-block-cover-text,
+#saasbox_page_content .wp-block-cover.has-right-content h2 {
+  margin-right: 0;
+  text-align: right;
+}
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-image-text,
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-text,
+#saasbox_page_content .wp-block-cover-image h2,
+#saasbox_page_content .wp-block-cover .wp-block-cover-image-text,
+#saasbox_page_content .wp-block-cover .wp-block-cover-text,
+#saasbox_page_content .wp-block-cover h2 {
+  color: #fff;
+  font-size: 2em;
+  line-height: 1.25;
+  z-index: 1;
+  margin-bottom: 0;
+  max-width: 610px;
+  padding: 14px;
+  text-align: center;
+}
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-image-text a,
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-image-text a:active,
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-image-text a:focus,
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-image-text a:hover,
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-text a,
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-text a:active,
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-text a:focus,
+#saasbox_page_content .wp-block-cover-image .wp-block-cover-text a:hover,
+#saasbox_page_content .wp-block-cover-image h2 a,
+#saasbox_page_content .wp-block-cover-image h2 a:active,
+#saasbox_page_content .wp-block-cover-image h2 a:focus,
+#saasbox_page_content .wp-block-cover-image h2 a:hover,
+#saasbox_page_content .wp-block-cover .wp-block-cover-image-text a,
+#saasbox_page_content .wp-block-cover .wp-block-cover-image-text a:active,
+#saasbox_page_content .wp-block-cover .wp-block-cover-image-text a:focus,
+#saasbox_page_content .wp-block-cover .wp-block-cover-image-text a:hover,
+#saasbox_page_content .wp-block-cover .wp-block-cover-text a,
+#saasbox_page_content .wp-block-cover .wp-block-cover-text a:active,
+#saasbox_page_content .wp-block-cover .wp-block-cover-text a:focus,
+#saasbox_page_content .wp-block-cover .wp-block-cover-text a:hover,
+#saasbox_page_content .wp-block-cover h2 a,
+#saasbox_page_content .wp-block-cover h2 a:active,
+#saasbox_page_content .wp-block-cover h2 a:focus,
+#saasbox_page_content .wp-block-cover h2 a:hover {
+  color: #fff;
+}
+#saasbox_page_content .wp-block-cover-image.has-parallax,
+#saasbox_page_content .wp-block-cover.has-parallax {
+  background-attachment: fixed;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim:before,
+#saasbox_page_content .wp-block-cover.has-background-dim:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: inherit;
+  opacity: .5;
+  z-index: 1;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-10:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-10:before {
+  opacity: .1;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-20:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-20:before {
+  opacity: .2;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-30:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-30:before {
+  opacity: .3;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-40:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-40:before {
+  opacity: .4;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-50:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-50:before {
+  opacity: .5;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-60:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-60:before {
+  opacity: .6;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-70:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-70:before {
+  opacity: .7;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-80:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-80:before {
+  opacity: .8;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-90:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-90:before {
+  opacity: .9;
+}
+#saasbox_page_content .wp-block-cover-image.has-background-dim.has-background-dim-100:before,
+#saasbox_page_content .wp-block-cover.has-background-dim.has-background-dim-100:before {
+  opacity: 1;
+}
+#saasbox_page_content .wp-block-cover-image.alignleft,
+#saasbox_page_content .wp-block-cover-image.alignright,
+#saasbox_page_content .wp-block-cover.alignleft,
+#saasbox_page_content .wp-block-cover.alignright {
+  max-width: 305px;
+  width: 100%;
+}
+#saasbox_page_content .wp-block-cover-image:after,
+#saasbox_page_content .wp-block-cover:after {
+  display: block;
+  content: "";
+  font-size: 0;
+  min-height: inherit;
+}
+#saasbox_page_content .wp-block-cover-image.aligncenter,
+#saasbox_page_content .wp-block-cover-image.alignleft,
+#saasbox_page_content .wp-block-cover-image.alignright,
+#saasbox_page_content .wp-block-cover.aligncenter,
+#saasbox_page_content .wp-block-cover.alignleft,
+#saasbox_page_content .wp-block-cover.alignright {
+  display: flex;
+}
+#saasbox_page_content .wp-block-cover-image .wp-block-cover__inner-container,
+#saasbox_page_content .wp-block-cover .wp-block-cover__inner-container {
+  width: calc(30%);
+  z-index: 1;
+  color: #f8f9f9;
+}
+#saasbox_page_content .wp-block-cover-image .wp-block-subhead,
+#saasbox_page_content .wp-block-cover-image h1,
+#saasbox_page_content .wp-block-cover-image h2,
+#saasbox_page_content .wp-block-cover-image h3,
+#saasbox_page_content .wp-block-cover-image h4,
+#saasbox_page_content .wp-block-cover-image h5,
+#saasbox_page_content .wp-block-cover-image h6,
+#saasbox_page_content .wp-block-cover-image p,
+#saasbox_page_content .wp-block-cover .wp-block-subhead,
+#saasbox_page_content .wp-block-cover h1,
+#saasbox_page_content .wp-block-cover h2,
+#saasbox_page_content .wp-block-cover h3,
+#saasbox_page_content .wp-block-cover h4,
+#saasbox_page_content .wp-block-cover h5,
+#saasbox_page_content .wp-block-cover h6,
+#saasbox_page_content .wp-block-cover p {
+  color: inherit;
+}
+#saasbox_page_content .wp-block-cover__video-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+#saasbox_page_content .block-editor-block-list__block[data-type="core/embed"][data-align=left] .block-editor-block-list__block-edit,
+#saasbox_page_content .block-editor-block-list__block[data-type="core/embed"][data-align=right] .block-editor-block-list__block-edit,
+#saasbox_page_content .wp-block-embed.alignleft,
+#saasbox_page_content .wp-block-embed.alignright {
+  max-width: 360px;
+  width: 100%;
+}
+#saasbox_page_content .wp-block-embed {
+  margin-bottom: 1em;
+}
+#saasbox_page_content .wp-block-embed figcaption {
+  margin-top: .5em;
+  margin-bottom: 1em;
+  color: #555d66;
+  text-align: center;
+  font-size: 13px;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-1 .wp-block-embed__wrapper,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-2 .wp-block-embed__wrapper,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-9-16 .wp-block-embed__wrapper,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-16-9 .wp-block-embed__wrapper,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-18-9 .wp-block-embed__wrapper,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-21-9 .wp-block-embed__wrapper {
+  position: relative;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-1 .wp-block-embed__wrapper:before,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-2 .wp-block-embed__wrapper:before,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper:before,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-9-16 .wp-block-embed__wrapper:before,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-16-9 .wp-block-embed__wrapper:before,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-18-9 .wp-block-embed__wrapper:before,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-21-9 .wp-block-embed__wrapper:before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-1 .wp-block-embed__wrapper iframe,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-2 .wp-block-embed__wrapper iframe,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper iframe,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-9-16 .wp-block-embed__wrapper iframe,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-16-9 .wp-block-embed__wrapper iframe,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-18-9 .wp-block-embed__wrapper iframe,
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-21-9 .wp-block-embed__wrapper iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-21-9 .wp-block-embed__wrapper:before {
+  padding-top: 42.85%;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-18-9 .wp-block-embed__wrapper:before {
+  padding-top: 50%;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-16-9 .wp-block-embed__wrapper:before {
+  padding-top: 56.25%;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper:before {
+  padding-top: 75%;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-1 .wp-block-embed__wrapper:before {
+  padding-top: 100%;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-9-6 .wp-block-embed__wrapper:before {
+  padding-top: 66.66%;
+}
+#saasbox_page_content .wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-2 .wp-block-embed__wrapper:before {
+  padding-top: 200%;
+}
+#saasbox_page_content .wp-block-file {
+  margin-bottom: 1.5em;
+}
+#saasbox_page_content .wp-block-file.aligncenter {
+  text-align: center;
+}
+#saasbox_page_content .wp-block-file.alignright {
+  text-align: right;
+}
+#saasbox_page_content .wp-block-file .wp-block-file__button {
+  background: #32373c;
+  border-radius: 2em;
+  color: #fff;
+  font-size: 13px;
+  padding: .5em 1em;
+}
+#saasbox_page_content .wp-block-file a.wp-block-file__button {
+  text-decoration: none;
+}
+#saasbox_page_content .wp-block-file a.wp-block-file__button:active,
+#saasbox_page_content .wp-block-file a.wp-block-file__button:focus,
+#saasbox_page_content .wp-block-file a.wp-block-file__button:hover,
+#saasbox_page_content .wp-block-file a.wp-block-file__button:visited {
+  box-shadow: none;
+  color: #fff;
+  opacity: .85;
+  text-decoration: none;
+}
+#saasbox_page_content .wp-block-file *+.wp-block-file__button {
+  margin-left: .75em;
+}
+#saasbox_page_content .wp-block-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+#saasbox_page_content .wp-block-gallery .blocks-gallery-image,
+#saasbox_page_content .wp-block-gallery .blocks-gallery-item {
+  margin: 0 16px 16px 0;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+#saasbox_page_content .wp-block-gallery .blocks-gallery-image figure,
+#saasbox_page_content .wp-block-gallery .blocks-gallery-item figure {
+  margin: 0;
+  height: 100%;
+}
+#saasbox_page_content .wp-block-gallery .blocks-gallery-image img,
+#saasbox_page_content .wp-block-gallery .blocks-gallery-item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+#saasbox_page_content .wp-block-gallery .blocks-gallery-image figcaption,
+#saasbox_page_content .wp-block-gallery .blocks-gallery-item figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  padding: 40px 10px 9px;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.3) 70%,transparent);
+}
+#saasbox_page_content .wp-block-gallery .blocks-gallery-image figcaption img,
+#saasbox_page_content .wp-block-gallery .blocks-gallery-item figcaption img {
+  display: inline;
+}
+#saasbox_page_content .wp-block-gallery.is-cropped .blocks-gallery-image a,
+#saasbox_page_content .wp-block-gallery.is-cropped .blocks-gallery-image img,
+#saasbox_page_content .wp-block-gallery.is-cropped .blocks-gallery-item a,
+#saasbox_page_content .wp-block-gallery.is-cropped .blocks-gallery-item img {
+  width: 100%;
+}
+#saasbox_page_content .wp-block-gallery .blocks-gallery-image,
+#saasbox_page_content .wp-block-gallery .blocks-gallery-item {
+  width: calc(42%);
+}
+#saasbox_page_content .wp-block-gallery .blocks-gallery-image:nth-of-type(2n),
+#saasbox_page_content .wp-block-gallery .blocks-gallery-item:nth-of-type(2n) {
+  margin-right: 0;
+}
+#saasbox_page_content .wp-block-gallery.columns-1 .blocks-gallery-image,
+#saasbox_page_content .wp-block-gallery.columns-1 .blocks-gallery-item {
+  width: 100%;
+  margin-right: 0;
+}
+@media (min-width: 600px) {
+  #saasbox_page_content .wp-block-gallery.columns-3 .blocks-gallery-image,
+  #saasbox_page_content .wp-block-gallery.columns-3 .blocks-gallery-item {
+    width: calc(22.66666%);
+    margin-right: 16px;
+  }
+  #saasbox_page_content .wp-block-gallery.columns-4 .blocks-gallery-image,
+  #saasbox_page_content .wp-block-gallery.columns-4 .blocks-gallery-item {
+    width: calc(13%);
+    margin-right: 16px;
+  }
+  #saasbox_page_content .wp-block-gallery.columns-5 .blocks-gallery-image,
+  #saasbox_page_content .wp-block-gallery.columns-5 .blocks-gallery-item {
+    width: calc(7.2%);
+    margin-right: 16px;
+  }
+  #saasbox_page_content .wp-block-gallery.columns-6 .blocks-gallery-image,
+  #saasbox_page_content .wp-block-gallery.columns-6 .blocks-gallery-item {
+    width: calc(3.33334%);
+    margin-right: 16px;
+  }
+  #saasbox_page_content .wp-block-gallery.columns-7 .blocks-gallery-image,
+  #saasbox_page_content .wp-block-gallery.columns-7 .blocks-gallery-item {
+    width: calc(0.57142%);
+    margin-right: 16px;
+  }
+  #saasbox_page_content .wp-block-gallery.columns-8 .blocks-gallery-image,
+  #saasbox_page_content .wp-block-gallery.columns-8 .blocks-gallery-item {
+    width: calc(-1.5%);
+    margin-right: 16px;
+  }
+  #saasbox_page_content .wp-block-gallery.columns-1 .blocks-gallery-image:nth-of-type(1n),
+  #saasbox_page_content .wp-block-gallery.columns-1 .blocks-gallery-item:nth-of-type(1n),
+  #saasbox_page_content .wp-block-gallery.columns-2 .blocks-gallery-image:nth-of-type(2n),
+  #saasbox_page_content .wp-block-gallery.columns-2 .blocks-gallery-item:nth-of-type(2n),
+  #saasbox_page_content .wp-block-gallery.columns-3 .blocks-gallery-image:nth-of-type(3n),
+  #saasbox_page_content .wp-block-gallery.columns-3 .blocks-gallery-item:nth-of-type(3n),
+  #saasbox_page_content .wp-block-gallery.columns-4 .blocks-gallery-image:nth-of-type(4n),
+  #saasbox_page_content .wp-block-gallery.columns-4 .blocks-gallery-item:nth-of-type(4n),
+  #saasbox_page_content .wp-block-gallery.columns-5 .blocks-gallery-image:nth-of-type(5n),
+  #saasbox_page_content .wp-block-gallery.columns-5 .blocks-gallery-item:nth-of-type(5n),
+  #saasbox_page_content .wp-block-gallery.columns-6 .blocks-gallery-image:nth-of-type(6n),
+  #saasbox_page_content .wp-block-gallery.columns-6 .blocks-gallery-item:nth-of-type(6n),
+  #saasbox_page_content .wp-block-gallery.columns-7 .blocks-gallery-image:nth-of-type(7n),
+  #saasbox_page_content .wp-block-gallery.columns-7 .blocks-gallery-item:nth-of-type(7n),
+  #saasbox_page_content .wp-block-gallery.columns-8 .blocks-gallery-image:nth-of-type(8n),
+  #saasbox_page_content .wp-block-gallery.columns-8 .blocks-gallery-item:nth-of-type(8n) {
+    margin-right: 0;
+  }
+}
+#saasbox_page_content .wp-block-gallery .blocks-gallery-image:last-child,
+#saasbox_page_content .wp-block-gallery .blocks-gallery-item:last-child {
+  margin-right: 0;
+}
+#saasbox_page_content .wp-block-gallery .blocks-gallery-item.has-add-item-button {
+  width: 100%;
+}
+#saasbox_page_content .wp-block-gallery.alignleft,
+#saasbox_page_content .wp-block-gallery.alignright {
+  max-width: 305px;
+  width: 100%;
+}
+#saasbox_page_content .wp-block-gallery.aligncenter,
+#saasbox_page_content .wp-block-gallery.alignleft,
+#saasbox_page_content .wp-block-gallery.alignright {
+  display: flex;
+}
+#saasbox_page_content .wp-block-gallery.aligncenter .blocks-gallery-item figure {
+  justify-content: center;
+}
+#saasbox_page_content .wp-block-image {
+  max-width: 100%;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+#saasbox_page_content .wp-block-image img {
+  max-width: 100%;
+}
+#saasbox_page_content .wp-block-image.aligncenter {
+  text-align: center;
+}
+#saasbox_page_content .wp-block-image.alignfull img,
+#saasbox_page_content .wp-block-image.alignwide img {
+  width: 100%;
+}
+#saasbox_page_content .wp-block-image .aligncenter,
+#saasbox_page_content .wp-block-image .alignleft,
+#saasbox_page_content .wp-block-image .alignright,
+#saasbox_page_content .wp-block-image.is-resized {
+  display: table;
+  margin-left: 0;
+  margin-right: 0;
+}
+#saasbox_page_content .wp-block-image .aligncenter>figcaption,
+#saasbox_page_content .wp-block-image .alignleft>figcaption,
+#saasbox_page_content .wp-block-image .alignright>figcaption,
+#saasbox_page_content .wp-block-image.is-resized>figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+#saasbox_page_content .wp-block-image .alignleft {
+  float: left;
+  margin-right: 1em;
+}
+#saasbox_page_content .wp-block-image .alignright {
+  float: right;
+  margin-left: 1em;
+}
+#saasbox_page_content .wp-block-image .aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+#saasbox_page_content .wp-block-image figcaption {
+  margin-top: .5em;
+  margin-bottom: 1em;
+  color: #555d66;
+  text-align: center;
+  font-size: 13px;
+}
+#saasbox_page_content .wp-block-latest-comments__comment {
+  font-size: 15px;
+  line-height: 1.1;
+  list-style: none;
+  margin-bottom: 1em;
+}
+#saasbox_page_content .has-avatars .wp-block-latest-comments__comment {
+  min-height: 36px;
+  list-style: none;
+}
+#saasbox_page_content .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt,
+#saasbox_page_content .has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta {
+  margin-left: 52px;
+}
+#saasbox_page_content .has-dates .wp-block-latest-comments__comment,
+#saasbox_page_content .has-excerpts .wp-block-latest-comments__comment {
+  line-height: 1.5;
+}
+#saasbox_page_content .wp-block-latest-comments__comment-excerpt p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 5px 0 20px;
+}
+#saasbox_page_content .wp-block-latest-comments__comment-date {
+  color: #8f98a1;
+  display: block;
+  font-size: 12px;
+}
+#saasbox_page_content .wp-block-latest-comments .avatar,
+#saasbox_page_content .wp-block-latest-comments__comment-avatar {
+  border-radius: 24px;
+  display: block;
+  float: left;
+  height: 40px;
+  margin-right: 12px;
+  width: 40px;
+}
+#saasbox_page_content .wp-block-latest-posts.alignleft {
+  margin-right: 2em;
+}
+#saasbox_page_content .wp-block-latest-posts.alignright {
+  margin-left: 2em;
+}
+#saasbox_page_content .wp-block-latest-posts.is-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+#saasbox_page_content .wp-block-latest-posts.is-grid li {
+  margin: 0 16px 16px 0;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  #saasbox_page_content .wp-block-latest-posts.columns-2 li {
+    width: calc(34%);
+  }
+  #saasbox_page_content .wp-block-latest-posts.columns-3 li {
+    width: calc(17.33333%);
+  }
+  #saasbox_page_content .wp-block-latest-posts.columns-4 li {
+    width: calc(9%);
+  }
+  #saasbox_page_content .wp-block-latest-posts.columns-5 li {
+    width: calc(4%);
+  }
+  #saasbox_page_content .wp-block-latest-posts.columns-6 li {
+    width: calc(0.66667%);
+  }
+}
+#saasbox_page_content .wp-block-latest-posts__post-date {
+  display: block;
+  color: #6c7781;
+  font-size: 13px;
+}
+#saasbox_page_content .wp-block-media-text {
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  grid-template-areas: "media-text-media media-text-content";
+  grid-template-columns: 50% auto;
+}
+#saasbox_page_content .wp-block-media-text.has-media-on-the-right {
+  grid-template-areas: "media-text-content media-text-media";
+  grid-template-columns: auto 50%;
+}
+#saasbox_page_content .wp-block-media-text .wp-block-media-text__media {
+  grid-area: media-text-media;
+  margin: 0;
+}
+#saasbox_page_content .wp-block-media-text .wp-block-media-text__content {
+  word-break: break-word;
+  grid-area: media-text-content;
+  padding: 0 8%;
+}
+#saasbox_page_content .wp-block-media-text>figure>img,
+#saasbox_page_content .wp-block-media-text>figure>video {
+  max-width: unset;
+  width: 100%;
+  vertical-align: middle;
+}
+@media (max-width: 600px) {
+  #saasbox_page_content .wp-block-media-text.is-stacked-on-mobile {
+    grid-template-columns: 100% !important;
+    grid-template-areas: "media-text-media" "media-text-content";
+  }
+  #saasbox_page_content .wp-block-media-text.is-stacked-on-mobile.has-media-on-the-right {
+    grid-template-areas: "media-text-content" "media-text-media";
+  }
+}
+#saasbox_page_content .is-small-text {
+  font-size: 14px;
+}
+#saasbox_page_content .is-regular-text {
+  font-size: 16px;
+}
+#saasbox_page_content .is-large-text {
+  font-size: 36px;
+}
+#saasbox_page_content .is-larger-text {
+  font-size: 48px;
+}
+#saasbox_page_content .has-drop-cap:not(:focus):first-letter {
+  float: left;
+  font-size: 8.4em;
+  line-height: .68;
+  font-weight: 100;
+  margin: .05em .1em 0 0;
+  text-transform: uppercase;
+  font-style: normal;
+}
+#saasbox_page_content .has-drop-cap:not(:focus):after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-top: 14px;
+}
+#saasbox_page_content p.has-background {
+  padding: 20px 30px;
+}
+#saasbox_page_content p.has-text-color a {
+  color: inherit;
+}
+#saasbox_page_content .wp-block-pullquote {
+  padding: 3em 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+#saasbox_page_content .wp-block-pullquote.alignleft,
+#saasbox_page_content .wp-block-pullquote.alignright {
+  max-width: 305px;
+}
+#saasbox_page_content .wp-block-pullquote.alignleft p,
+#saasbox_page_content .wp-block-pullquote.alignright p {
+  font-size: 20px;
+}
+#saasbox_page_content .wp-block-pullquote p {
+  font-size: 28px;
+  line-height: 1.6;
+}
+#saasbox_page_content .wp-block-pullquote cite,
+#saasbox_page_content .wp-block-pullquote footer {
+  position: relative;
+}
+#saasbox_page_content .wp-block-pullquote .has-text-color a {
+  color: inherit;
+}
+#saasbox_page_content .wp-block-pullquote:not(.is-style-solid-color) {
+  background: none;
+}
+#saasbox_page_content .wp-block-pullquote.is-style-solid-color {
+  border: none;
+}
+#saasbox_page_content .wp-block-pullquote.is-style-solid-color blockquote {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  max-width: 60%;
+}
+#saasbox_page_content .wp-block-pullquote.is-style-solid-color blockquote p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+#saasbox_page_content .wp-block-pullquote.is-style-solid-color blockquote cite {
+  text-transform: none;
+  font-style: normal;
+}
+#saasbox_page_content .wp-block-pullquote cite {
+  color: inherit;
+}
+#saasbox_page_content .wp-block-quote.is-large,
+#saasbox_page_content .wp-block-quote.is-style-large {
+  margin: 0 0 16px;
+  padding: 0 1em;
+}
+#saasbox_page_content .wp-block-quote.is-large p,
+#saasbox_page_content .wp-block-quote.is-style-large p {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.6;
+}
+#saasbox_page_content .wp-block-quote.is-large cite,
+#saasbox_page_content .wp-block-quote.is-large footer,
+#saasbox_page_content .wp-block-quote.is-style-large cite,
+#saasbox_page_content .wp-block-quote.is-style-large footer {
+  font-size: 18px;
+  text-align: right;
+}
+#saasbox_page_content .wp-block-rss.alignleft {
+  margin-right: 2em;
+}
+#saasbox_page_content .wp-block-rss.alignright {
+  margin-left: 2em;
+}
+#saasbox_page_content .wp-block-rss.is-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+#saasbox_page_content .wp-block-rss.is-grid li {
+  margin: 0 16px 16px 0;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  #saasbox_page_content .wp-block-rss.columns-2 li {
+    width: calc(34%);
+  }
+  #saasbox_page_content .wp-block-rss.columns-3 li {
+    width: calc(17.33333%);
+  }
+  #saasbox_page_content .wp-block-rss.columns-4 li {
+    width: calc(9%);
+  }
+  #saasbox_page_content .wp-block-rss.columns-5 li {
+    width: calc(4%);
+  }
+  #saasbox_page_content .wp-block-rss.columns-6 li {
+    width: calc(0.66667%);
+  }
+}
+#saasbox_page_content .wp-block-rss__item-author,
+#saasbox_page_content .wp-block-rss__item-publish-date {
+  color: #6c7781;
+  font-size: 13px;
+}
+#saasbox_page_content .wp-block-search {
+  display: flex;
+  flex-wrap: wrap;
+}
+#saasbox_page_content .wp-block-search .wp-block-search__label {
+  width: 100%;
+}
+#saasbox_page_content .wp-block-search .wp-block-search__input {
+  flex-grow: 1;
+}
+#saasbox_page_content .wp-block-search .wp-block-search__button {
+  margin-left: 10px;
+}
+#saasbox_page_content .wp-block-separator.is-style-wide {
+  border-bottom-width: 1px;
+}
+#saasbox_page_content .wp-block-separator.is-style-dots {
+  background: none;
+  border: none;
+  text-align: center;
+  max-width: none;
+  line-height: 1;
+  height: auto;
+}
+#saasbox_page_content .wp-block-separator.is-style-dots:before {
+  content: "\00b7 \00b7 \00b7";
+  color: #191e23;
+  font-size: 20px;
+  letter-spacing: 2em;
+  padding-left: 2em;
+  font-family: serif;
+}
+#saasbox_page_content p.wp-block-subhead {
+  font-size: 1.1em;
+  font-style: italic;
+  opacity: .75;
+}
+#saasbox_page_content .wp-block-table.has-fixed-layout {
+  table-layout: fixed;
+  width: 100%;
+}
+#saasbox_page_content .wp-block-table.aligncenter,
+#saasbox_page_content .wp-block-table.alignleft,
+#saasbox_page_content .wp-block-table.alignright {
+  display: table;
+  width: auto;
+}
+#saasbox_page_content .wp-block-table.has-subtle-light-gray-background-color {
+  background-color: #f3f4f5;
+}
+#saasbox_page_content .wp-block-table.has-subtle-pale-green-background-color {
+  background-color: #e9fbe5;
+}
+#saasbox_page_content .wp-block-table.has-subtle-pale-blue-background-color {
+  background-color: #e7f5fe;
+}
+#saasbox_page_content .wp-block-table.has-subtle-pale-pink-background-color {
+  background-color: #fcf0ef;
+}
+#saasbox_page_content .wp-block-table.is-style-stripes {
+  border-spacing: 0;
+  border-collapse: inherit;
+  background-color: transparent;
+  border-bottom: 1px solid #f3f4f5;
+}
+#saasbox_page_content .wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tr:nth-child(odd),
+#saasbox_page_content .wp-block-table.is-style-stripes tr:nth-child(odd) {
+  background-color: #f3f4f5;
+}
+#saasbox_page_content .wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tr:nth-child(odd) {
+  background-color: #e9fbe5;
+}
+#saasbox_page_content .wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tr:nth-child(odd) {
+  background-color: #e7f5fe;
+}
+#saasbox_page_content .wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tr:nth-child(odd) {
+  background-color: #fcf0ef;
+}
+#saasbox_page_content .wp-block-table.is-style-stripes td {
+  border-color: transparent;
+}
+#saasbox_page_content .wp-block-text-columns,
+#saasbox_page_content .wp-block-text-columns.aligncenter {
+  display: flex;
+}
+#saasbox_page_content .wp-block-text-columns .wp-block-column {
+  margin: 0 16px;
+  padding: 0;
+}
+#saasbox_page_content .wp-block-text-columns .wp-block-column:first-child {
+  margin-left: 0;
+}
+#saasbox_page_content .wp-block-text-columns .wp-block-column:last-child {
+  margin-right: 0;
+}
+#saasbox_page_content .wp-block-text-columns.columns-2 .wp-block-column {
+  width: 50%;
+}
+#saasbox_page_content .wp-block-text-columns.columns-3 .wp-block-column {
+  width: 33.33333%;
+}
+#saasbox_page_content .wp-block-text-columns.columns-4 .wp-block-column {
+  width: 25%;
+}
+#saasbox_page_content pre.wp-block-verse {
+  white-space: nowrap;
+  overflow: auto;
+}
+#saasbox_page_content .wp-block-video {
+  margin-left: 0;
+  margin-right: 0;
+}
+#saasbox_page_content .wp-block-video video {
+  max-width: 100%;
+}
+#saasbox_page_content .wp-block-video.aligncenter {
+  text-align: center;
+}
+#saasbox_page_content .wp-block-video figcaption {
+  margin-top: .5em;
+  margin-bottom: 1em;
+  color: #555d66;
+  text-align: center;
+  font-size: 13px;
+}
+#saasbox_page_content .has-pale-pink-background-color.has-pale-pink-background-color {
+  background-color: #f78da7;
+}
+#saasbox_page_content .has-vivid-red-background-color.has-vivid-red-background-color {
+  background-color: #cf2e2e;
+}
+#saasbox_page_content .has-luminous-vivid-orange-background-color.has-luminous-vivid-orange-background-color {
+  background-color: #ff6900;
+}
+#saasbox_page_content .has-luminous-vivid-amber-background-color.has-luminous-vivid-amber-background-color {
+  background-color: #fcb900;
+}
+#saasbox_page_content .has-light-green-cyan-background-color.has-light-green-cyan-background-color {
+  background-color: #7bdcb5;
+}
+#saasbox_page_content .has-vivid-green-cyan-background-color.has-vivid-green-cyan-background-color {
+  background-color: #00d084;
+}
+#saasbox_page_content .has-pale-cyan-blue-background-color.has-pale-cyan-blue-background-color {
+  background-color: #8ed1fc;
+}
+#saasbox_page_content .has-vivid-cyan-blue-background-color.has-vivid-cyan-blue-background-color {
+  background-color: #0693e3;
+}
+#saasbox_page_content .has-very-light-gray-background-color.has-very-light-gray-background-color {
+  background-color: #eee;
+}
+#saasbox_page_content .has-cyan-bluish-gray-background-color.has-cyan-bluish-gray-background-color {
+  background-color: #abb8c3;
+}
+#saasbox_page_content .has-very-dark-gray-background-color.has-very-dark-gray-background-color {
+  background-color: #313131;
+}
+#saasbox_page_content .has-pale-pink-color.has-pale-pink-color {
+  color: #f78da7;
+}
+#saasbox_page_content .has-vivid-red-color.has-vivid-red-color {
+  color: #cf2e2e;
+}
+#saasbox_page_content .has-luminous-vivid-orange-color.has-luminous-vivid-orange-color {
+  color: #ff6900;
+}
+#saasbox_page_content .has-luminous-vivid-amber-color.has-luminous-vivid-amber-color {
+  color: #fcb900;
+}
+#saasbox_page_content .has-light-green-cyan-color.has-light-green-cyan-color {
+  color: #7bdcb5;
+}
+#saasbox_page_content .has-vivid-green-cyan-color.has-vivid-green-cyan-color {
+  color: #00d084;
+}
+#saasbox_page_content .has-pale-cyan-blue-color.has-pale-cyan-blue-color {
+  color: #8ed1fc;
+}
+#saasbox_page_content .has-vivid-cyan-blue-color.has-vivid-cyan-blue-color {
+  color: #0693e3;
+}
+#saasbox_page_content .has-very-light-gray-color.has-very-light-gray-color {
+  color: #eee;
+}
+#saasbox_page_content .has-cyan-bluish-gray-color.has-cyan-bluish-gray-color {
+  color: #abb8c3;
+}
+#saasbox_page_content .has-very-dark-gray-color.has-very-dark-gray-color {
+  color: #313131;
+}
+#saasbox_page_content .has-small-font-size {
+  font-size: 13px;
+}
+#saasbox_page_content .has-normal-font-size,
+#saasbox_page_content .has-regular-font-size {
+  font-size: 16px;
+}
+#saasbox_page_content .has-medium-font-size {
+  font-size: 20px;
+}
+#saasbox_page_content .has-large-font-size {
+  font-size: 36px;
+}
+#saasbox_page_content .has-huge-font-size,
+#saasbox_page_content .has-larger-font-size {
+  font-size: 42px;
+}
