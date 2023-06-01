@@ -16,10 +16,13 @@ const adjustResourcePaths = (html) => {
   const $ = cheerio.load(html);
 
   // Seleciona todos os elementos <link> com o atributo 'href' contendo 'https'
+  $('.nav-right').remove()
   $('link[href]').each((index, element) => {
     const href = $(element).attr('href');
     $(element).attr('href', `/findniche/css/${href.split('/')[href.split('/').length - 1]}`);
   });
+
+
 
   $('script[src]').each((index, element) => {
     
@@ -51,7 +54,7 @@ app.get('/externo/*', async (req, res)=>{
 
   const url =  req.originalUrl.replace('/externo/','')
   const type = url.split('?')[0].slice(-3).replace('.', '').replace('/','')
-  
+
 if(url){
   try{
   const response = await fetch(url)
