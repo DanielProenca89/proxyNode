@@ -22,4 +22,4 @@ const getCookies = ()=>{
     return JSON.parse(data)
 }
 
-module.exports = {getFindNiche, getCookies}
+module.exports = {getCookies}
