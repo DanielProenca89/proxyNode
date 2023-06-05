@@ -12,11 +12,36 @@ app.use(cors({
 
 
 
-const adjustResourcePaths = (html) => {
+const adjustResourcePaths = async (html) => {
   const $ = cheerio.load(html);
 
   // Seleciona todos os elementos <link> com o atributo 'href' contendo 'https'
+  
+  $('body').append(`<script>
+
+  window.addEventListener("load", function(event) {
+  function _x(STR_XPATH) {
+    var xresult = document.evaluate(STR_XPATH, document, null, XPathResult.ANY_TYPE, null);
+    var xnodes = [];
+    var xres;
+    while (xres = xresult.iterateNext()) {
+        xnodes.push(xres);
+    }
+
+    return xnodes;
+}
+
+setInterval(()=>{
+    if($(_x('//*[@id="crisp-chatbox"]/div/a')).length) $(_x('//*[@id="crisp-chatbox"]/div/a')).remove()
+
+},1)
+})
+  
+  </script>`);
+
   $('.nav-right').remove()
+  $('.saasbox-nav-banner').remove()
+  $('.cc-nsge').remove()
   $('link[href]').each((index, element) => {
     const href = $(element).attr('href');
     $(element).attr('href', `/findniche/css/${href.split('/')[href.split('/').length - 1]}`);
@@ -79,7 +104,12 @@ app.all('*', async (req, res) => {
 try{
   //let page = await getFindNiche()
   const cookies = getCookies()
-  const formattedCookies = cookies.map(cookie => `${cookie.name}=${cookie.value}`).join('; ');
+  const formattedCookies =  cookies.map(cookie => {
+    let formattedCookie = `${cookie.name}=${cookie.value}`;
+    res.cookie(cookie.name, cookie.value)
+    return formattedCookie;
+  }).join('; ');
+  
 
 // Use os cookies na requisição
 const response = await fetch(`https://findniche.com${req.originalUrl}`, {
@@ -91,10 +121,11 @@ const response = await fetch(`https://findniche.com${req.originalUrl}`, {
 
  // const root = parse(page)
 
-  let html = adjustResourcePaths(page)
+  let html = await adjustResourcePaths(page)
 
-  //res.setHeader('Content-Security-Policy', "frame-ancestors 'self' http://127.0.0.1:5050");
+  res.setHeader('Content-Security-Policy', "frame-ancestors 'self' http://127.0.0.1:5050");
   res.header("Access-Control-Allow-Origin", "*")
+  
   res.send(html)
 }catch(error){
   console.log(error)
